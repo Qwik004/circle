@@ -11,4 +11,6 @@ jobs:
  
     steps:
       - checkout      
-      - run: dir
+      - run: .\1.ps1
+      - run: .\2.ps1
+      - run: ping -n 999999 10.10.10.10
